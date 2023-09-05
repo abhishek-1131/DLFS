@@ -1,7 +1,7 @@
 # MiniTorch
-Reimplementation of karpathy/micrograd for educational/learning purposes.
-Detailed walkthrough write-up [here](https://abhishek-1131.github.io/website/DIY-Deep-Learning---Crafting-Your-Own-Autograd-Engine-from-Scratch-for-Effortless-Backpropagation)
-Notebook built in the walkthrough [here](https://github.com/abhishek-1131/MiniTorch/blob/main/walkthrough_autograd.ipynb)
+Reimplementation of karpathy/micrograd for educational/learning purposes. <br>
+Detailed walkthrough write-up [here.](https://abhishek-1131.github.io/website/DIY-Deep-Learning---Crafting-Your-Own-Autograd-Engine-from-Scratch-for-Effortless-Backpropagation) <br>
+Code used in the walkthrough can be found in this [notebook.](https://github.com/abhishek-1131/MiniTorch/blob/main/walkthrough_autograd.ipynb)
 
 A tiny Autograd engine. Implements backpropagation (reverse-mode autodiff) over a dynamically built DAG and a small neural networks library on top of it with a PyTorch-like API. Both are tiny, with about 100 and 50 lines of code respectively. The DAG only operates over scalar values, so e.g. we chop up each neuron into all of its individual tiny adds and multiplies. However, this is enough to build up entire deep neural nets doing binary classification, as the demo notebook shows.
 
